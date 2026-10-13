@@ -1,0 +1,78 @@
+
+body {
+  background: #f4f6f9;
+  color: #252525;
+}
+
+.card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #00000008;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-bottom: 18px;
+}
+
+.form-control, .form-select {
+  padding: 10px;
+}
+
+.chart {
+  height: 260px;
+  max-width: 360px;
+  margin: auto;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  padding: 14px 0;
+}
+
+.expense-name {
+  overflow-wrap: anywhere;
+}
+
+.delete {
+  border: none;
+  background: #fce8e8;
+  color: #c62828;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+body.dark {
+  background: #20252b;
+  color: #f1f1f1;
+}
+
+body.dark .card,
+body.dark .list-group-item {
+  background: #2b323a;
+  color: #f1f1f1;
+  border-color: #454d56;
+}
+
+body.dark .form-control,
+body.dark .form-select {
+  background: #343c45;
+  color: white;
+  border-color: #555;
+}
+
+body.dark .card p {
+  color: #c2c7cc;
+}
